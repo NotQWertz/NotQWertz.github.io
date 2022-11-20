@@ -1,44 +1,208 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>QWerty</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{
+background-color:#9c9f84;
+margin:0px;
+font-family:verdana,georgia,serif;
+font-size:14px;
 
-
-    <title>My First Website</title>
+}
+#header{
+background-color:#5c755e;
+margin:10px;
+height:90px;
+border-radius:5px;
+}
+h1{
+font-size:120%;
+color:#ce282e;
+}
+#navbar
+{
+    margin-top:5px
+    border-radius:10px;
     
-    <meta name="author" content="your name" />
-    <meta name="description" content="" />
+}
 
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    
+#navbar ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:5px;
+    padding:0
+}
+
+#navbar ul a
+{
+    display:block;
+    color:#333;
+    text-decoration:none;
+    font-weight:700;
+    font-size:12px;
+    line-height:32px;
+    padding:0 15px;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#navbar ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+#navbar ul li.current-menu-item
+{
+    background:#ddd;
+    margin-left:10px;
+}
+
+#navbar ul li:hover
+{
+    background:#f6f6f6;
+}
+
+#navbar ul ul
+{
+display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color:#fff;
+    padding:0
+}
+
+#navbar ul ul li
+{
+    float:none;
+    width:200px
+}
+
+#navbar ul ul a
+{
+    line-height:120%;
+    padding:10px 15px
+}
+#navbar ul li:hover > ul
+{
+    display:block
+}
+
+.main{
+background-color:#e5e4d7;
+margin-left:10px;
+margin-right:100px;
+margin-top:10px;
+margin-bottom:10px;
+border-radius:5px;
+font-size:100%;
+padding:5px;
+}
+.imgsidebar{
+margin-left:10px;
+margin-right:10px;
+margin-top:0px;
+margin-bottom:10px;
+width:90px;
+float:right;
+clear:right;
+opacity:1.0;
+transition:opacity 2s ease-in-out;
+}
+imgsidebar:hover{
+opacity:0.4;
+}
+.sideright{
+background-color:#e5e4d7;
+margin-left:10px;
+margin-right:10px;
+margin-top:0px;
+margin-bottom:10px;
+border-radius:5px;
+font-size:100%;
+padding:5px;
+float:right;
+clear:right;
+}
+h2{
+font-size:120%;
+color:darkblue;
+text-transform:capitalize;
+}
+h3{
+text-align:center;
+color:#fff;
+font-family:sans serif,Arial;
+position:relative;
+top:30%;
+font-size:200%;
+} /*
+.main p{ 
+    text-indent:30px;
+    text-align:justify;
+} */
+#footer{
+background-color:#5c755e;
+margin:10px;
+height:60px;
+border-radius:5px;
+clear:both;
+color:#efe5d0;
+text-align:center;
+padding:5px;
+font-size:90%;
+}
+#footer ul{
+text-align:center;
+list-style-type:none;
+padding:0px;
+}
+#footer ul li{
+display:inline;
+}
+#footer ul li a{
+text-decoration:none;
+font-family:arial;
+padding:1.8%;
+color:#fff;
+border-radius:5px;
+text-transform:capitalize;
+}
+#footer ul li a:hover{
+color:#5c775e;
+background-color:#fff;
+}
+
+</style>
 </head>
 <body>
+<div id="header">
+<h3> Hello World</h3>
+</divascading>
+<div class="main">
+<h1>QWerty</h1>
+<p>Hello, I am QWerty a 16 years old male from the Netherlands
+    I like coffee and other things I can speak Some languages being English my 5th/6th language.</p>
+    <p>I like science and coding I currently know Python for Applied science
+        and JavaScript I am also the type of guy who you can't talk about coding
+        cause I just code without thinking. lol</p>
+        <p>I also like to code bots but I just have a bad host for multiple servers
+            I also like to contribute in GitHubs on my account I use for contributions.
 
+        </p> <p> This Website is still in development so you will see some changes in content and anything like domain name.
+            
+ </div>
 
-    <div id="page">
-        <div id="logo">
-            <h1><a href="/" id="logoLink">My First Website</a></h1>
-        </div>
-        <div id="nav">
-            <ul>
-                <li><a href="#/home.html">Home</a></li>
-                <li><a href="#/about.html">About</a></li>
-                <li><a href="#/contact.html">Contact</a></li>
-            </ul>    
-        </div>
-        <div id="content">
-            <h2>Home</h2>
-            <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
-            <p> 
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
-        </div>
-        <div id="footer">
-            <p>
-                Webpage made by QWerty#0003</a>
-            </p>
-        </div>
-    </div>
+<div id="footer"> 
+&copy; Zach 2022-2022
+<ul>
+</ul>
+</div>
 </body>
 </html>
