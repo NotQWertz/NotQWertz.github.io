@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Developer"> 
+        <meta property="og:site_name" content="QWertx"> 
+        <meta property="og:type" content="website"> 
+        <meta property="og:title" content="QWertx's Website" /> 
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7528859230970437"crossorigin="anonymous"></script>
+        <meta property="og:description" content="Developer and Student" /> 
+        <meta property="og:url" content="https://qwertx.is-an.app/" /> 
+        <link rel="stylesheet" href="styles.css">
+        
+        <!-- ===== FAVICON ===== -->
+        <link rel="shortcut icon" href="assets/img/favicon.png"> 
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'> 
+
+        <title>QWertx</title> 
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">QWertx</a> 
+                </div>
+
+                <div class="nav__menu" id="nav-menu"> <!-- This is to create a divide section for navigation menu that can be seen as texts like Home | About... on Chrome for Desktop -->
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#music" class="nav__link">Music</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle"> <!--This is to create a divide section for navigation menu that can be seen as a hamburger icon on mobile that can be expanded and closed -->
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main"> <!-- This is to hold all the main contents -->
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h2 class="home__title"><span>HELLO</span><br>:)</h2> <!-- This is the big big text you see on the website -->
+                    <div class="home__scroll"> <!-- Scrolls when you click on the scroll down text, animated with javascript-->
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/perfil.png" alt="" class="home__img"> <!-- Main image you will see that appears next to the text. Feel free to change it to your own transparent png image:) -->
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/Me.jpg" alt=""> <!-- Your own image -->
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">It's QWertx</h2> <!--You name or a nickname-->
+                        <span class="about__profession">Developer and Student</span> <!-- Your job Title -->
+                        <p class="about__text"> <!-- A description of yourself -->
+                            Hi there! My name is QWerty! I'm a student!
+                            I wish that I could create music that will spread the positivity of mine no matter what kind of songs I'm singing🥰🤍
+                        </p>
+
+                        <div class="about__social">
+                            <a href="https://open.spotify.com/artist/" target="_blank" class="about__social-icon" alt="Spotify Artist Profile"><i class='bx bxl-spotify' ></i>Spotify</a> <!-- You can always change Spotify to other socials that you have, like Facebook or Twitch -->
+                            <a href="https://www.instagram.com/" target="_blank" class="about__social-icon" alt="Instagram Profile"><i class='bx bxl-instagram' ></i>Instagram</a> <!-- You can always change Instagram to other socials that you have, like Linkedin or Twitter -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box"> <!-- Creates a divide section for skills box where all your skills will be placed into grey boxes -->
+                        <h3 class="skills__subtitle">Development</h3> <!--name your skills-->
+                        <span class="skills__name" alt="HTML">HTML</span> <!--name your skills-->
+                        <span class="skills__name"alt="CSS">CSS</span> <!--name your skills-->
+                        <span class="skills__name"alt="JavaScript">JavaScript</span> <!--name your skills-->
+                        <span class="skills__name"alt="Node.js">Node.js</span> <!--name your skills-->
+                        <span class="skills__name"alt="Python">Python</span> <!--name your skills-->
+                        <span class="skills__name"alt="TypeScript">TypeScript</span> <!--name your skills-->
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.jpg" alt="Skill Background Image">
+                    </div>
+                </div>
+            </section>
+            
+ 
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">QWertx</h2>
+                    <p class="footer__text">This website is made with different tools</p> <!-- It doesn't matter, you can always modify this part or just remove it completely:) -->
+                    <ul>
+                        <li><a href="terms-and-conditions" class="footer__link">Terms and Conditions</a></li>
+                        <li><a href="privacy-policy" class="footer__link">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2> <!-- This is in the Footer so that people can navigate to different pages they wanna know more about -->
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                      <li><a href="#skills" class="footer__link">Skills</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2> <!-- This is not necessary but you will see it in the footer, this is normally used by support websites to put their email and contacts in case you wanna contact them:) -->
+                    <a href="https://open.spotify.com/artist/" target="_blank" class="footer__social" alt="Spotify Artist Profile"><i class='bx bxl-spotify' ></i>Spotify</a> <!-- You can always change Spotify to other socials that you have, like Facebook or Twitch -->
+                    <a href="https://www.instagram.com/" class="footer__social"><i class='bx bxl-instagram' ></i>Instagram</a> <!-- You can always change Instagram to other socials that you have, like Linkedin or Twitter-->
+                </div>
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script> <!-- This is the Scroll Reveal I used as a script for revealing the content while you scroll:) -->
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script> <!-- This is where I created all the animations:) -->
+    </body>
+</html>
