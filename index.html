@@ -1,93 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Hello, World</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" >
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>QWertx's Website</title>
+  <link rel="icon" href="./github-code-source-svgrepo-com.svg">
 </head>
 
-
 <body>
-    
-<nav>
-    <a href="#!" onclick="cloz()">&times;</a>
-    <a href="#html" >About Me</a>
-    <a href="#css" >Skills </a>
-    <a href="#js" >Links </a>
-    <a href="#jq" >Tools </a>
-        <br>
- 
-    <a href="#!" >Home</a>
-</nav>
-<section id="header">
-    <div>
-        <h1>Hello, World !!</h1>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>QW</span>E<span>RT</span>X</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-</section>
-    <br>
-    <br>
-<section id="html">
-<div>
-    <h2>About Me</h2>
-Hello, I am QWertz a Student and a lazy Front-end Developer. <br>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>QWertx <span></span></h1>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Personal Website</h1>
+            <h2>qwertx.is-an.app/</h2>
+            <p>A personal website I created for myself to show off my personal stuff and other things like portfolios</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Me</span></h1>
+        <h2>Student</h2>
+        <p>Hello, I am QWertz a Student and a lazy Front-end Developer. <br>
 I am a 16 years old student from the Netherlands.<br>
-Don't mind my English its my 5th language I can communicate. Also not best person to talk about coding cause I code without thinking twice... <br>
-</div>
-</section>
-    <br>
-<section id="css" >
-<div>
-    <h2>Skills</h2>
-- Website Development<br>
-- Python for Applied Science<br>
-- Creative<br>
-- Leadership<br>
-</div><br>
-    <br>
-</section>
-<section id="js" >
-<div>
-    <h2>Links</h2>
-Gonna do Links later.....<br>
-</div>
-</section><br>
-    <br>
-<section id="jq" >
-<div>
-    <h2>Tools</h2>
-Tools I used for this Website.<br>
-- JavaScript<br>
-- HTML<br>
-- CSS<br>
-- GitHub Pages<br>
-- Is-an.app<br>
-</div>
-</section><br>
-    <br>
-    <br>
-<section id="contact" >
-<div>
-    <h2>Contact Me</h2>
-    <form>
-        <input type="email" placeholder="Your Email" />
-        <textarea placeholder="Your Message" ></textarea>
-    </form><center id="feedback" ><br>
-        <a href="#!" class="learn" id="send" >Send</a>
-    </center>
-</div>
-</section><br>
-    <br>
-<footer>
-<div>
-    QWerty<br>
-    2022 - 2022<br>
-    <br>
-    Follow me:
-        <ul>
-            <li><a href="https://github.com/NotQWertz/" >GitHub > NotQWertz </a></li>
-        </ul>
-</div>
+Don't mind my English its my 5th language I can communicate. Also not best person to talk about coding cause I code without thinking twice... <br></p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Discord</h1>
+            <h2>QWertx#0003</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>Need to make a new email</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Zuid-Holland, The Netherlands</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>QW</span>E<span>RT</span>X</h1>
+      </div>
+      <h2>2022 - 2022</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="./facebook-svgrepo-com.svg" /></a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 </body>
+
 </html>
