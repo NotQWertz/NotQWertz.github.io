@@ -1,9 +1,82 @@
-<!DOCTYPE html>
-<html>
-<head> <title> K </title> </head>
-<body>
+<!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>QWertx</title>
+     <!--========== SCROLL TOP ==========-->
+     <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
 
-<h1>Maintenance Please Come Back Later</h1>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">QWertx</a>
 
-</body>
-</html>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Hello there!</h1>
+                    <h2 class="home__subtitle">I am QWertx <br> A student and <br> A developer</h2>
+                </div>
+
+            </div>
+        </section>
+        
+        <!--========== ABOUT ==========-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container  bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">About Me?</span>
+                    <h2 class="section-title about__initial">Tell something about you!</h2>
+                    <p class="about__description">I am a student currently living in Belgium. <br> I like science and coding. Learning TypeScript atm! <br>
+                    I am a lazy person but also a  hardworking person when I like something. <br> I also like Fumos and Anime. </p>
+                </div>
+
+                <img src="https://i.pinimg.com/564x/ec/39/18/ec391862650076262e9074647ab6601f.jpg" alt="" class="about__img">
+            </div>
+        </section>
+
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">QWertx</a>
+                <span class="footer__description">2022</span>
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Pages</h3>
+                <ul>
+                    <li><a href="https://www.qwertx.is-an.app/game/snake" class="footer__link">Snake</a></li>
+                    <li><a href="https://www.qwertx.is-an.app/game/wordo" class="footer__link">Wordo</a></li>
+                    <li><a href="https://www.qwertx.is-an.app/game/bee" class="footer__link">Bee Battle</a></li>
+            
+                </ul>
+            </div>
+
+        <p class="footer__copy">&#169; 2022 QWertx. All rights reserved</p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
